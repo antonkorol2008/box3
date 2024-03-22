@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+.box1 {
+  background-color: pink;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 34px;
+}
+.box2 {
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 34px;
+  position: absolute;
+  top: 130px;
+  left: 670px;
+}
+.box3 {
+  background-color: lawngreen;
+  height: 200px;
+  width: 200px;
+
+  position: absolute;
+  top: 270px;
+  left: 750px;
+}
+.square {
+  color: black;
+  top: 20px;
+  left: 900px;
+}
